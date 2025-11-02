@@ -1,8 +1,82 @@
-html {
-  color-scheme: light dark;
-  font-family: system-ui;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
   height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  background-color: rgb(31, 116, 50);
+  width: 100%;
+  padding: 1rem;
+}
+
+main{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 88, 4, 0.493);
+}
+
+.containerIntro{
+  background-color: rgba(255, 255, 255, 0.863);
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container{
+  background-color: rgba(255, 255, 255, 0.863);
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+h1{
+  color: white;
+  font-size: 6rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1+p{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.containerIntro p{
+  max-width: 1140px;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(15, 54, 23);
+  margin: 80px auto 40px auto;
+}
+
+.boton{
+  display: inline-block;
+  background-color: rgb(31, 116, 50);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.boton:hover{
+  background-color: rgb(15, 54, 23);
 }
