@@ -201,3 +201,21 @@ iframe{
   aspect-ratio: 16/9;
   border: none;
 }
+
+ul{
+  list-style: none;
+  font-size: 2rem;
+}
+
+li{
+  margin: 1rem 0;
+}
+
+li a{
+  color: rgb(31, 116, 50);
+  font-style: italic;
+}
+
+li a:hover{
+  color: rgb(15, 54, 23); 
+}
