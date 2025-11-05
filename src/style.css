@@ -81,6 +81,7 @@ h1+p{
   border-radius: 10px;
   font-size: 2rem;
   text-decoration: none;
+  margin: 3rem;
 }
 
 .boton:hover{
@@ -123,9 +124,73 @@ h2{
   transform: translate(-50%,-50%);
   font-size: 3rem;
   color: white;
-  text-shadow: -1px -1px 3px black,1px -1px 3px black,-1px 1px 3px black,1px 1px 3px black ;
+  text-shadow: -1px -1px 3px black,1px -1px 3px black,-1px 1px 3px black,1px 1px 3px black;
 }
 
 .locked{
   pointer-events: none;
+}
+
+
+/*------------DETALLE--------------*/
+
+.headerDet{
+  position: relative;
+}
+
+
+.headerDet img.detCover{
+
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 30%;
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+.headerDet h2.detTitle{
+  font-size: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-90%);
+  text-shadow: -1px -1px 3px black,1px -1px 3px black,-1px 1px 3px black,1px 1px 3px black;
+  color: white;
+  z-index: 1;
+}
+
+.container p{
+  font-size: 2rem;
+  margin: 3rem;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.gallery img:hover{
+  transform: scale(1.07);
+  transition: transform 0.1s linear;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+  padding: 0 3rem;
+}
+
+iframe{
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: none;
 }
