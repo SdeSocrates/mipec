@@ -1,0 +1,12 @@
+# Navegadores principales
+> 0.3%
+last 2 versions
+not dead
+
+# Soporte para móviles antiguos
+Android >= 7
+iOS >= 12
+
+# Excluye navegadores obsoletos
+not ie <= 11
+not op_mini all
