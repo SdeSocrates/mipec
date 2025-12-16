@@ -72,9 +72,9 @@ sharp(inputPathCatLocked).resize(250).webp({quality: 80}).toFile(outputPathCatLo
 sharp(inputPathCatLocked).resize(500).webp({quality: 80}).toFile(outputPathCatLocked500);
 //------Página DET1----------
 sharp(inputPathDet1Madrid).resize(480).webp({quality: 80}).toFile(outputPathDet1Madrid480);
-sharp(inputPathDet1Madrid).resize(960).webp({quality: 80}).toFile(outputPathDet1Madrid960);
-sharp(inputPathDet1Madrid).resize(1140).webp({quality: 80}).toFile(outputPathDet1Madrid1140);
-sharp(inputPathDet1Madrid).resize(2280).webp({quality: 80}).toFile(outputPathDet1Madrid2280);
+sharp(inputPathDet1Madrid).resize(960).webp({quality: 100}).toFile(outputPathDet1Madrid960);
+sharp(inputPathDet1Madrid).resize(1140).webp({quality: 100}).toFile(outputPathDet1Madrid1140);
+sharp(inputPathDet1Madrid).resize(2280).webp({quality: 100}).toFile(outputPathDet1Madrid2280);
 sharp(inputPathDet1Madrid01Thumb).resize(200).webp({quality: 80}).toFile(outputPathDet1Madrid01Thumb200);
 sharp(inputPathDet1Madrid01Thumb).resize(400).webp({quality: 80}).toFile(outputPathDet1Madrid01Thumb400);
 sharp(inputPathDet1Madrid02Thumb).resize(200).webp({quality: 80}).toFile(outputPathDet1Madrid02Thumb200);
@@ -87,9 +87,9 @@ sharp(inputPathDet1Madrid05Thumb).resize(200).webp({quality: 80}).toFile(outputP
 sharp(inputPathDet1Madrid05Thumb).resize(400).webp({quality: 80}).toFile(outputPathDet1Madrid05Thumb400);
 //------Página DET2----------
 sharp(inputPathDet2Paris).resize(480).webp({quality: 80}).toFile(outputPathDet2Paris480);
-sharp(inputPathDet2Paris).resize(960).webp({quality: 80}).toFile(outputPathDet2Paris960);
-sharp(inputPathDet2Paris).resize(1140).webp({quality: 80}).toFile(outputPathDet2Paris1140);
-sharp(inputPathDet2Paris).resize(2280).webp({quality: 80}).toFile(outputPathDet2Paris2280);
+sharp(inputPathDet2Paris).resize(960).webp({quality: 100}).toFile(outputPathDet2Paris960);
+sharp(inputPathDet2Paris).resize(1140).webp({quality: 100}).toFile(outputPathDet2Paris1140);
+sharp(inputPathDet2Paris).resize(2280).webp({quality: 100}).toFile(outputPathDet2Paris2280);
 sharp(inputPathDet2Paris01Thumb).resize(200).webp({quality: 80}).toFile(outputPathDet2Paris01Thumb200);
 sharp(inputPathDet2Paris01Thumb).resize(400).webp({quality: 80}).toFile(outputPathDet2Paris01Thumb400);
 sharp(inputPathDet2Paris02Thumb).resize(200).webp({quality: 80}).toFile(outputPathDet2Paris02Thumb200);
