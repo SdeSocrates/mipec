@@ -5,6 +5,10 @@
     role="img">
 
     <style>
+        .backgroundCircle{
+            fill: #ffffff;
+        }
+
         .verticalRect{
             fill: #757575;
         }
@@ -14,14 +18,17 @@
         }
     </style>
 
+    <!--Fondo circular-->
+    <circle class="backgroundCircle" cx="50" cy="50" r="48"/>
+
     <!--Vigas de acero laterales verticales-->
-    <rect class="verticalRect" x="30" y="10" width="6" height="80" rx="2"/>
-    <rect class="verticalRect" x="64" y="10" width="6" height="80" rx="2"/>
+    <rect class="verticalRect" x="32" y="18" width="6" height="64" rx="2"/>
+    <rect class="verticalRect" x="62" y="18" width="6" height="64" rx="2"/>
 
     <!--Tablones horizontales de la vía-->
-    <rect class="horizontalRect" x="26" y="25" width="48" height="10" rx="2"/>
-    <rect class="horizontalRect" x="26" y="45" width="48" height="10" rx="2"/>
-    <rect class="horizontalRect" x="26" y="65" width="48" height="10" rx="2"/>
+    <rect class="horizontalRect" x="28" y="30" width="44" height="8" rx="2"/>
+    <rect class="horizontalRect" x="28" y="46" width="44" height="8" rx="2"/>
+    <rect class="horizontalRect" x="28" y="62" width="44" height="8" rx="2"/>
 
 </svg>
 
