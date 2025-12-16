@@ -38,5 +38,18 @@ document.addEventListener("DOMContentLoaded", () => {
             }, 500);
         });
     });
+
+    const button = document.getElementById("animationButton");
+    const animation = document.getElementById("trackAnimation");
+
+    button.addEventListener("click", (e) => {
+        e.preventDefault();
+        button.style.display = "none";
+        animation.style.display = "inline-block";
+
+        setTimeout(() => {
+            window.location.href = button.href;
+        }, 4000);
+    });
 });
 

@@ -218,6 +218,12 @@ li a:hover{
   color: rgb(15, 54, 23); 
 }
 
+/*-------Animación SVG--------*/
+#trackAnimation{
+  display: none;
+  width: 200px;
+}
+
 
 /*-----------WEB RESPONSIVE-----------*/
 

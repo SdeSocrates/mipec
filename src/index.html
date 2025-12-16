@@ -21,7 +21,57 @@
           Intrigados por cuántos destinos podríamos llegar a visitar sin recurrir a otro medio de transporte, decidimos hacer las maletas y verlo por nosotros mismos.
           ¿Te animas a acompañarnos?
         </p>
-        <a href="categoria/index.html" class="boton fade">¡Vamos allá!</a>
+        <a href="categoria/index.html" class="boton" id="animationButton">¡Vamos allá!</a>
+        <div id="trackAnimation">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 100 100"
+            aria-label="train tracks icon"
+            role="img">
+
+            <style>
+                .backgroundCircle{
+                    fill: #ffffff;
+                }
+
+                .verticalRect{
+                    fill: #757575;
+                }
+
+                .horizontalRect{
+                    fill: #694421;
+                    transform-origin: center;
+                    animation: tracksWave 1.2s ease-in-out infinite;
+                }
+
+                .animated1{ animation-delay: 0.05s; }
+                .animated2{ animation-delay: 0.20s; }
+                .animated3{ animation-delay: 0.35s; }
+
+                @keyframes tracksWave{
+                    0%{ transform: scaleX(1); }
+                    40%{ transform: scaleX(1.4); }
+                    80%{ transform: scaleX(1); }
+                    100%{ transform: scaleX(1); }
+                }
+
+            </style>
+
+            <!--Fondo circular-->
+            <circle class="backgroundCircle" cx="50" cy="50" r="48"/>
+
+            <!--Vigas de acero laterales verticales-->
+            <rect class="verticalRect" x="32" y="18" width="6" height="64" rx="2"/>
+            <rect class="verticalRect" x="62" y="18" width="6" height="64" rx="2"/>
+
+            <!--Tablones horizontales de la vía-->
+            <rect class="horizontalRect animated1" x="28" y="30" width="44" height="8" rx="2"/>
+            <rect class="horizontalRect animated2" x="28" y="46" width="44" height="8" rx="2"/>
+            <rect class="horizontalRect animated3" x="28" y="62" width="44" height="8" rx="2"/>
+
+          </svg>
+
+        </div>
       </div>
     </main>
     <script type="module" src="mainScript.js"></script>
