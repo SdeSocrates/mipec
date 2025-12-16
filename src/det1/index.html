@@ -17,24 +17,51 @@
         <div class="container">
             <div class="headerDet">
                 <h2 class="detTitle">Madrid</h2>
-                <img src="img/madrid.jpg" alt="La Gran Vía de Madrid, España" id="madridCover" class="detCover">
+                <picture>
+                    <source
+                        type="image/webp"
+                        srcset="
+                            img/madrid-480.webp 480w,
+                            img/madrid-960.webp 960w,
+                            img/madrid-1140.webp 1140w,
+                            img/madrid-2280.webp 2280w
+                            " 
+                        sizes="(max-width: 830px) 100vw, 1140px"
+                    >
+                    <img src="img/madrid.jpg" alt="La Gran Vía de Madrid, España" id="madridCover" class="detCover">
+                </picture>
             </div>
             
             <div id="gallery" class="gallery">
                 <a href="img/madrid01.jpg">
-                    <img src="img/madrid01-thumb.jpg" alt="Una calle peatonal de Madrid.">
+                    <img 
+                        src="img/madrid01-thumb-200.webp" 
+                        srcset="img/madrid01-thumb-200.webp 1x, img/madrid01-thumb-400.webp 2x"
+                        alt="Una calle peatonal de Madrid.">
                 </a>
                 <a href="img/madrid02.jpg">
-                    <img src="img/madrid02-thumb.jpg" alt="La Puerta de Alcalá de Madrid.">
+                    <img 
+                        src="img/madrid02-thumb-200.webp"
+                        srcset="img/madrid02-thumb-200.webp 1x, img/madrid02-thumb-400.webp 2x" 
+                        alt="La Puerta de Alcalá de Madrid.">
                 </a>
                 <a href="img/madrid03.jpg">
-                    <img src="img/madrid03-thumb.jpg" alt="Arco de entrada a la Plaza Mayor de Madrid.">
+                    <img 
+                        src="img/madrid03-thumb-200.webp" 
+                        srcset="img/madrid03-thumb-200.webp 1x, img/madrid03-thumb-400.webp 2x" 
+                        alt="Arco de entrada a la Plaza Mayor de Madrid.">
                 </a>
                 <a href="img/madrid04.jpg">
-                    <img src="img/madrid04-thumb.jpg" alt="El Palacio de Cristal del parque El Retiro, de Madrid.">
+                    <img 
+                        src="img/madrid04-thumb-200.webp" 
+                        srcset="img/madrid04-thumb-200.webp 1x, img/madrid04-thumb-400.webp 2x" 
+                        alt="El Palacio de Cristal del parque El Retiro, de Madrid.">
                 </a>
                 <a href="img/madrid05.jpg">
-                    <img src="img/madrid05-thumb.jpg" alt="Escultura 'El Oso y el Madroño' de Madrid.">
+                    <img 
+                        src="img/madrid05-thumb-200.webp" 
+                        srcset="img/madrid05-thumb-200.webp 1x, img/madrid05-thumb-400.webp 2x" 
+                        alt="Escultura 'El Oso y el Madroño' de Madrid.">
                 </a>
 
             </div>
