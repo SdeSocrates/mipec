@@ -1,0 +1,27 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 100 100"
+    aria-label="train tracks icon"
+    role="img">
+
+    <style>
+        .verticalRect{
+            fill: #757575;
+        }
+
+        .horizontalRect{
+            fill: #694421;
+        }
+    </style>
+
+    <!--Vigas de acero laterales verticales-->
+    <rect class="verticalRect" x="30" y="10" width="6" height="80" rx="2"/>
+    <rect class="verticalRect" x="64" y="10" width="6" height="80" rx="2"/>
+
+    <!--Tablones horizontales de la vía-->
+    <rect class="horizontalRect" x="26" y="25" width="48" height="10" rx="2"/>
+    <rect class="horizontalRect" x="26" y="45" width="48" height="10" rx="2"/>
+    <rect class="horizontalRect" x="26" y="65" width="48" height="10" rx="2"/>
+
+</svg>
+
