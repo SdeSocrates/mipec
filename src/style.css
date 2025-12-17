@@ -90,19 +90,44 @@ h1+p{
 }
 
 /*-------Animación SVG--------*/
+
+#trackAnimation svg .backgroundCircle{
+  fill: #ffffff;
+}
+
+#trackAnimation svg .verticalRect{
+  fill: #757575;
+}
+
+#trackAnimation svg .horizontalRect{
+  fill: #694421;
+  transform-origin: center;
+  animation: tracksWave 1.2s ease-in-out infinite;
+}
+
+#trackAnimation svg .animated1{ animation-delay: 0.05s; }
+#trackAnimation svg .animated2{ animation-delay: 0.20s; }
+#trackAnimation svg .animated3{ animation-delay: 0.35s; }
+
+@keyframes tracksWave{
+  0%{ transform: scaleX(1); }
+  40%{ transform: scaleX(1.4); }
+  80%{ transform: scaleX(1); }
+  100%{ transform: scaleX(1); }
+}
+
 #trackAnimation{
   opacity: 0;
   visibility: hidden;
   width: 200px;
   margin: 0 auto;
-  animation-play-state: paused;
 }
 
 #trackAnimation.active{
   opacity: 1;
   visibility: visible;
-  animation-play-state: running;
 }
+
 
 /*-------Uso de Clip-Path en la Portada--------*/
 #clipPathFigure{
