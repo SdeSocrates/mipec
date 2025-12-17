@@ -91,8 +91,15 @@ h1+p{
 
 /*-------Animación SVG--------*/
 #trackAnimation{
-  display: none;
+  opacity: 0;
+  visibility: hidden;
   width: 200px;
+  margin: 0 auto;
+}
+
+#trackAnimation.active{
+  opacity: 1;
+  visibility: visible;
 }
 
 /*-------Uso de Clip-Path en la Portada--------*/

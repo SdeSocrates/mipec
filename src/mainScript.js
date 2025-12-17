@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
     button.addEventListener("click", (e) => {
         e.preventDefault();
         button.style.display = "none";
-        animation.style.display = "inline-block";
+        animation.classList.add("active");
 
         setTimeout(() => {
             window.location.href = button.href;
