@@ -95,11 +95,13 @@ h1+p{
   visibility: hidden;
   width: 200px;
   margin: 0 auto;
+  animation-play-state: paused;
 }
 
 #trackAnimation.active{
   opacity: 1;
   visibility: visible;
+  animation-play-state: running;
 }
 
 /*-------Uso de Clip-Path en la Portada--------*/
